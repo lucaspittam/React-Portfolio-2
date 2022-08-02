@@ -1,48 +1,37 @@
-import { Route, Router, useLocation } from "react-router"
-import { ThemeProvider } from "styled-components"
-import { lightTheme } from "./components/Themes"
-import GlobalStyle from "./globalStyles"
+import React, { useCallback } from 'react';
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import particlesOptions from "./particles.json";
+import { ThemeProvider } from 'styled-components';
+import GlobalStyle from './globalStyles';
+import { lightTheme } from './components/Themes';
+import {  Route } from 'react-router';
+import { Routes } from 'react-router-dom';
 
-
-//Components
 import Main from './components/Main';
 import AboutPage from './components/AboutPage';
-import WorkPage from './components/WorkPage';
 import MySkillsPage from './components/MySkillsPage';
-import { AnimatePresence } from "framer-motion";
-
-
+import WorkPage from './components/WorkPage';
 
 function App() {
-
-  const location = useLocation();
-  return <>
-
-
-  <GlobalStyle />
-
-    <ThemeProvider theme={lightTheme}>
-
- 
-
-{/* For framer-motion animation on page change! */}
-<AnimatePresence exitBeforeEnter>
-<Router  location={location} key={location.pathname}>
-      <Route exact path="/" component={Main}/>
-      <Route exact path="/about" component={AboutPage}/>
-      <Route exact path="/work" component={WorkPage}/>
-      <Route exact path="/skills" component={MySkillsPage}/>
-
-    </Router>
-</AnimatePresence>
     
-    
-    </ThemeProvider>
-
-
-    
-    </>
-    
+   const particlesInit = useCallback(main => {
+        loadFull(main);
+    }, [])
+    return (
+        <>
+        <GlobalStyle />
+        <ThemeProvider theme={lightTheme}>  
+            <Routes>
+                <Route exact path="/main" component={Main}/>
+                <Route exact path="/about" component={AboutPage}/>
+                <Route exact path="/skills" component={MySkillsPage}/>
+                <Route exact path="/work" component={WorkPage}/>
+            </Routes>
+        </ThemeProvider>
+            <Particles options={particlesOptions} init={particlesInit}/>        
+        </>
+    );
 }
 
-export default App
+export default App;
