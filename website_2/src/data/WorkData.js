@@ -1,12 +1,12 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Sendmi | Crypto Currency Wallet",
+        description:"It is build with React and Solidity and uses blockchain technology",
+        tags:["react","solidity","blockcahin"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://sendmi.tech/",
+        github:"https://github.com/lucaspittam/Web3-App-1"
     },
     {
         id:2,
@@ -20,12 +20,12 @@ export const Work = [
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Agency Landing Page",
+        description:"It is build with React, JS and Node.js.",
+        tags:["react","HTML","Nodejs"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://Lululearning.ca/",
+        github:"https://github.com/lucaspittam"
     },
     {
         id:4,

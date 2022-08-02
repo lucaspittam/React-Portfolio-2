@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react';
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import './App.css';
 import particlesOptions from "./particles.json";
+import GlobalStyle from './globalStyles';
 
 function App() {
     const particlesInit = useCallback(main => {
@@ -10,9 +10,10 @@ function App() {
     }, [])
 
     return (
-        <div className="App">
+        <>
+        <GlobalStyle />
             <Particles options={particlesOptions} init={particlesInit}/>        
-        </div>
+        </>
     );
 }
 
