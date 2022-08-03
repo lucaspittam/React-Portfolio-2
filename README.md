@@ -13,8 +13,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/lucaspittam/React-Portfolio-2"></a>
-  ![sticker](https://user-images.githubusercontent.com/98059989/182517873-130e6365-096e-4ee2-a206-0ccc58312d4e.png)
+  <a href="https://github.com/lucaspittam/React-Portfolio-2">
+  ![alt text](https://github.com/lucaspittam/React-Portfolio-2/src/assets/Images/main/profile-image.jpg?raw=true)
+  </a>
+ 
 
 <h3 align="center">Personal Portfolio</h3>
 
