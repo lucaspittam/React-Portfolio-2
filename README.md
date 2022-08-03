@@ -14,7 +14,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/lucaspittam/React-Portfolio-2">
-  ![alt text](https://github.com/lucaspittam/React-Portfolio-2/src/assets/Images/main/profile-image.jpg?raw=true)
+  <img src="/src/assets/Images/main/profile-image.png" alt="Logo" width="80" height="80">
+ 
   </a>
  
 
