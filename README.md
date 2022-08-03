@@ -9,11 +9,12 @@
 
 
 
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/lucaspittam/React-Portfolio-2">
-    <img src="src/assets/images/profile-image.png" alt="Logo" width="80" height="80">
+    ![sticker](https://user-images.githubusercontent.com/98059989/182517873-130e6365-096e-4ee2-a206-0ccc58312d4e.png)
   </a>
 
 <h3 align="center">Personal Portfolio</h3>
@@ -24,7 +25,7 @@
     <a href="https://github.com/lucaspittam/React-Portfolio-2"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lucaspittam/React-Portfolio-2">View Demo</a>
+    <a href="https://lucaspittam.com">View Demo</a>
     ·
     <a href="https://github.com/lucaspittam/React-Portfolio-2/issues">Report Bug</a>
     ·
