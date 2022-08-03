@@ -25,7 +25,7 @@ function App() {
 
     <SoundBar />
 
-{/* For framer-motion animation on page change! */}
+{/* For framer-motion animation  */}
 <AnimatePresence exitBeforeEnter>
 <Switch  location={location} key={location.pathname}>
       <Route exact path="/" component={Main}/>
