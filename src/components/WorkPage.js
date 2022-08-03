@@ -13,8 +13,7 @@ import { Earth } from './AllSvgs';
 import BigTitlte from '../subComponents/BigTitlte';
 
 const Box = styled.div`
-background-color: ${props => props.theme.body};
-
+background-color: black;
 height:400vh;
 position: relative;
 display: flex;
@@ -26,11 +25,10 @@ align-items: center;
 const Main = styled(motion.ul)`
 position: fixed;
 top: 12rem;
-left:calc(10rem + 15vw);
+left:calc(10rem + 1vw);
 height: 40vh;
 display: flex;
-
-color:white;
+color: white;
 `
 const Rotate = styled.span`
 display:block;
@@ -52,7 +50,7 @@ const container = {
 
     transition:{
       staggerChildren: 0.5,
-      duration: 0.5,
+      duration: 0.2,
     }
   }
 

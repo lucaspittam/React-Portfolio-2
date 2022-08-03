@@ -3,7 +3,7 @@ export const Work = [
         id:1,
         name:"Sendmi | Crypto Currency Wallet",
         description:"It is build with React and Solidity and uses blockchain technology",
-        tags:["react","solidity","blockcahin"],
+        tags:["react","solidity","blockchain"],
         
         demo:"https://sendmi.tech/",
         github:"https://github.com/lucaspittam/Web3-App-1"
@@ -12,48 +12,48 @@ export const Work = [
         id:2,
         name:"Personal Portfolio",
         description:"Cool, Modern and Responsive Portfolio Website with React.",
-        tags:["react","npm", "creative"],
+        tags:["React","npm", "creative"],
         
         demo:"http://lucaspittam.com/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        github:"https://github.com/lucaspittam/React-Portfolio-2"
         
     },
     {
         id:3,
         name:"Agency Landing Page",
-        description:"It is build with React, JS and Node.js.",
-        tags:["react","HTML","Nodejs"],
+        description:"It is build with React, JS and Node.js. Made to be simple, minimal and soft.",
+        tags:["React","HTML","Nodejs"],
         
         demo:"https://Lululearning.ca/",
         github:"https://github.com/lucaspittam"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
+        name:"",
+        description:"",
         tags:["react","styledComponents","react-router"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"https://lucaspittam.com",
+        github:"https://github.com/lucaspittam"
        
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
+        name:"",
+        description:"",
         tags:["react","redux","framer-motion"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        demo:"https://lucaspittam.com",
+        github:"https://github.com/lucaspittam"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"",
+        description:"",
+        tags:["react","redux","framer-motion"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"https://lucaspittam.com",
+        github:"https://github.com/lucaspittam"
         
     },
     
