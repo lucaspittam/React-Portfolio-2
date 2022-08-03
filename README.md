@@ -22,7 +22,7 @@
 <h3 align="center">Personal Portfolio</h3>
 
   <p align="center">
-    project_description
+    This is a personal portfolio I made using some technologies that I enjoy right now!
     <br />
     <a href="https://github.com/lucaspittam/React-Portfolio-2"><strong>Explore the docs »</strong></a>
     <br />
@@ -144,7 +144,6 @@ Project Link: [https://github.com/lucaspittam/React-Portfolio-2](https://github.
 [license-url]: https://github.com/lucaspittam/React-Portfolio-2/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lucas-pittam-3209bb22b
-[product-screenshot]: 
 
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
