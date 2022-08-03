@@ -9,7 +9,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 
 import { Work } from "../data/WorkData";
 import Card from '../subComponents/Card';
-import { YinYang } from './AllSvgs';
+import { Earth } from './AllSvgs';
 import BigTitlte from '../subComponents/BigTitlte';
 
 const Box = styled.div`
@@ -61,7 +61,7 @@ const container = {
 const WorkPage = () => {
 
     const ref = useRef(null);
-    const yinyang = useRef(null);
+    const earth = useRef(null);
 
 
 
@@ -74,7 +74,7 @@ const WorkPage = () => {
          element.style.transform = `translateX(${-window.pageYOffset}px)`
       
          
-          return (yinyang.current.style.transform =
+          return (earth.current.style.transform =
             'rotate(' + -window.pageYOffset + 'deg)')
         }
     
@@ -101,8 +101,8 @@ const WorkPage = () => {
             )
          }
      </Main>
-<Rotate ref={yinyang}>
-    <YinYang width={80} height={80} fill={DarkTheme.text} />
+<Rotate ref={earth}>
+    <Earth width={80} height={80} fill={DarkTheme.text} />
 </Rotate>
 
 <BigTitlte text="WORK" top='10%' right="20%" />

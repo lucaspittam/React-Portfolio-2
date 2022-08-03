@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import styled, { keyframes } from 'styled-components'
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons from '../subComponents/SocialIcons'
-import {YinYang } from './AllSvgs'
+import {Earth } from './AllSvgs'
 import Intro from './Intro'
 ;
 
@@ -133,11 +133,11 @@ const Main = () => {
             <SocialIcons theme={click ? 'dark' :'light'} />
            
             <Center click={click}>
-                <YinYang  onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+                <Earth  onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" to={{pathname:"mailto:codebucks27@gmail.com"}}>
+            <Contact target="_blank" to={{pathname:"mailto:me@lucaspittam.com"}}>
                 <motion.h2
                 initial={{
                     y:-200,
