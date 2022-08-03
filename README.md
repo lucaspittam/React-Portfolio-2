@@ -15,7 +15,7 @@
 <div align="center">
   <a href="https://github.com/lucaspittam/React-Portfolio-2">
   <img src="/src/assets/Images/profile-img.png" alt="Logo" width="200" height="200">
- 
+
   </a>
  
 
@@ -54,7 +54,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -65,9 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `lucaspittam`, `React-Portfolio-2`, `_pitzii`, `lucas-pittam-3209bb22b`, `lucsapittam`, `me@lucsapittam`, `Personal Portfolio`, `project_description`
+![Screen Shot 2022-08-02 at 11 11 58 PM](https://user-images.githubusercontent.com/98059989/182518623-e80a86aa-022d-48a4-b150-249275a9e5ec.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -76,6 +73,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * [![React][React.js]][React-url]
+* [![Node][Node.js]][Node-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -84,12 +82,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Setting up is quote easy for this project
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This is a of list things you need to install.
 * npm
   ```sh
   npm install npm@latest -g
@@ -107,19 +104,8 @@ This is an example of how to list things you need to use the software and how to
    ```
 3. start the application
    ```
-   npm start;
+   npm start
    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
