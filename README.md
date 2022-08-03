@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/lucaspittam/React-Portfolio-2">
-  <img src="/src/assets/Images/profile-img.png" alt="Logo" width="80" height="80">
+  <img src="/src/assets/Images/profile-img.png" alt="Logo" width="200" height="200">
  
   </a>
  
