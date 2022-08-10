@@ -1,15 +1,6 @@
 export const Work = [
     {
         id:1,
-        name:"Sendmi | Crypto Currency Wallet",
-        description:"It is build with React and Solidity and uses blockchain technology",
-        tags:["react","solidity","blockchain"],
-        
-        demo:"https://sendmi.tech/",
-        github:"https://github.com/lucaspittam/Web3-App-1"
-    },
-    {
-        id:2,
         name:"Personal Portfolio",
         description:"Cool, Modern and Responsive Portfolio Website with React.",
         tags:["React","npm", "creative"],
@@ -17,6 +8,15 @@ export const Work = [
         demo:"http://lucaspittam.com/",
         github:"https://github.com/lucaspittam/React-Portfolio-2"
         
+    },
+    {
+        id:2,
+        name:"Sendmi | Crypto Currency Wallet",
+        description:"It is build with React and Solidity and uses blockchain technology",
+        tags:["react","solidity","blockchain"],
+        
+        demo:"https://sendmi.tech/",
+        github:"https://github.com/lucaspittam/Web3-App-1"
     },
     {
         id:3,
@@ -29,12 +29,12 @@ export const Work = [
     },
     {
         id:4,
-        name:"",
+        name:"Social Network API Backend",
         description:"",
-        tags:["react","styledComponents","react-router"],
+        tags:["MongoDB","Mongoose","Nodejs"],
         
         demo:"https://lucaspittam.com",
-        github:"https://github.com/lucaspittam"
+        github:"https://github.com/lucaspittam/Socia_Network_API"
        
     },{
         id:5,
